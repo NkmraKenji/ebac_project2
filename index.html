@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Imagens/agenda_2.png" alt="agenda de contatos">
+            <h1>Agenda de contatos</h1>
+        </header>
+        <div class="container_retangulo">
+            <div class="retangulo"></div>
+        </div>
+
+        <form class="formulario">
+            <div class="container_input">
+                <input type="text" id="contact_name" required placeholder="Digite o nome completo do contato">
+                <input type="tel" id="contact_phone" required placeholder="Digite o número de telefone">
+                <input type="email" id="contact_email" placeholder="Digite o e-mail">
+            </div>
+            <div class="container_button">
+                <button type="submit" class="button">
+                    <img src="./Imagens/add_contact.png" alt="adicionar contato">
+                    Cadastrar contato
+                </button>
+                <button class="button">
+                    <img src="Imagens/clear.png" alt="lixeira">
+                    Limpar contatos
+                </button>
+            </div>
+        </form>
+
+        <div class="container_retangulo">
+            <div class="retangulo"></div>
+        </div>
+
+        </section>
+            <table class="container_table_img">
+                <thead>
+                    <tr>
+                        <th><img src="./Imagens/contact.png" alt="avatar"></th>
+                        <th><img src="./Imagens/telephone.png" alt="telefone"></th>
+                        <th><img src="./Imagens/contact_email.png" alt="email"></th>
+                    </tr>
+            <table class="container_table">
+                <thead>
+                    <tr>
+                        <th>Contato</th>
+                        <th>Telefone</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+
+        <div class="container_retangulo">
+            <div class="retangulo"></div>
+        </div>
+
+        <footer class="container_footer">
+            Patrick Kenji Nakamura | Tarefa EBAC -  | 2023
+        </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
