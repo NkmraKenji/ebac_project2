@@ -68,18 +68,19 @@ header img {
 }
 
 table {
-    width: 100%;
-}
-
-table th {
-    text-transform: uppercase;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-spacing: 25px;
+    margin: 0 auto;
     font-size: 20px;
 }
 
-table td {
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(117, 117, 170);
+th {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 24px;
 }
 
 footer {
